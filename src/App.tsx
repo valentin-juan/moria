@@ -2,12 +2,16 @@ import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
 import { AppRoutes } from './Routes'
+import { SideBar} from './components/sidebar/SideBar';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-      <AppRoutes />
+      <>
+        <SideBar />
+        <AppRoutes />
+      </>
 
 
     /** <div className="App">

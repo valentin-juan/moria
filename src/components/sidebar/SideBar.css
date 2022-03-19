@@ -1,0 +1,16 @@
+#sideBar{
+    background-color: rgb(0, 0, 0, 20%);
+    display: inline-block;
+    width: 20%;
+    height: 100vh;
+}
+
+.listNav {
+    list-style-type: none;   
+    padding: 0 0 10% 10%;
+}
+
+.listNav a, a:hover, a:focus, a:active{
+    text-decoration: none;
+    color: white;
+}
